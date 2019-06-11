@@ -1,0 +1,243 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliPay (2.1.2)
+  - Bugly (2.4.7)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - Countly (19.02):
+    - Countly/NotificationService (= 19.02)
+  - Countly/NotificationService (19.02)
+  - CWStatusBarNotification (2.3.5)
+  - EBBannerView (1.0.8)
+  - FDFullscreenPopGesture (1.1)
+  - FSPagerView (0.8.2)
+  - GPUImage (0.1.7)
+  - HappyDNS (0.3.14)
+  - HPGrowingTextView (1.1)
+  - JCore (1.1.6)
+  - JPush (3.0.6):
+    - JCore (~> 1.1.1)
+  - libksygpulive/base (3.0.4)
+  - libksygpulive/libksygpulive (3.0.4):
+    - GPUImage
+    - libksygpulive/streamerbase
+  - libksygpulive/mediacodec (3.0.4)
+  - libksygpulive/mediacore_enc_base (3.0.4)
+  - libksygpulive/mediacore_enc_lite (3.0.4)
+  - libksygpulive/streamerbase (3.0.4):
+    - libksygpulive/base
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/mediacore_enc_lite
+    - libksygpulive/yuv
+  - libksygpulive/yuv (3.0.4)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.1.12)
+  - mob_sharesdk (4.2.4):
+    - mob_sharesdk/ShareSDK (= 4.2.4)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.4):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.2.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.2.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Twitter (4.2.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull (4.2.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.2)
+  - OpenSSL-for-iOS (1.0.2.d.1)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Socket.IO-Client-Swift (8.3.3)
+  - UMCAnalytics (5.5.2):
+    - UMCCommon
+  - UMCCommon (1.5.3)
+  - UMCSecurityPlugins (1.0.6)
+  - XMNetworking (1.1.0):
+    - AFNetworking (~> 3.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZFPlayer (3.2.10):
+    - ZFPlayer/Core (= 3.2.10)
+  - ZFPlayer/AVPlayer (3.2.10):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.10):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.10)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AliPay (~> 2.1.2)
+  - Bugly (~> 2.4.6)
+  - CocoaLumberjack
+  - Countly
+  - CWStatusBarNotification (~> 2.3.5)
+  - EBBannerView
+  - FDFullscreenPopGesture
+  - FSPagerView
+  - HPGrowingTextView
+  - JPush
+  - libksygpulive/libksygpulive
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - mob_sharesdk (= 4.2.4)
+  - mob_sharesdk/ShareSDKPlatforms/Facebook
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/Twitter
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull
+  - OpenSSL-for-iOS (~> 1.0.2.d.1)
+  - Qiniu
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SDCycleScrollView
+  - SDWebImage (~> 3.7)
+  - Socket.IO-Client-Swift (from `https://github.com/socketio/socket.io-client-swift.git`, commit `1949b1fd487abb4301f57c608645357b8195aa2e`)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+  - XMNetworking
+  - YYWebImage
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliPay
+    - Bugly
+    - CocoaLumberjack
+    - Countly
+    - CWStatusBarNotification
+    - EBBannerView
+    - FDFullscreenPopGesture
+    - FSPagerView
+    - GPUImage
+    - HappyDNS
+    - HPGrowingTextView
+    - JCore
+    - JPush
+    - libksygpulive
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - OpenSSL-for-iOS
+    - Qiniu
+    - SDCycleScrollView
+    - SDWebImage
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - XMNetworking
+    - YYCache
+    - YYImage
+    - YYWebImage
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+  Socket.IO-Client-Swift:
+    :commit: 1949b1fd487abb4301f57c608645357b8195aa2e
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+CHECKOUT OPTIONS:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+  Socket.IO-Client-Swift:
+    :commit: 1949b1fd487abb4301f57c608645357b8195aa2e
+    :git: https://github.com/socketio/socket.io-client-swift.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliPay: 2bd35a4e486d2a8c035043023cd846e886bb21d1
+  Bugly: 2c256069145f550171907c5cb1c0f84ad291f6c1
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  Countly: f4f9d6b8eb9bb7914a05d28b8adca12a27b2e61a
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  EBBannerView: 148153c26663a8a1319b3deefc3016db7d801087
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: c41be50eb1a574a66aeb68d237f00a4ec6ec3a82
+  libksygpulive: aca3eb30e7a38ee6565feb52feb82ccc0103ce43
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  mob_sharesdk: 9797e05209dce16507be7797141f523daa033f76
+  MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
+  OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Socket.IO-Client-Swift: 1237801d26b7688d4a41b315d77d8332d041433f
+  UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  XMNetworking: 7160cc06f504f325eec515a1e687ee1aa89bc462
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZFPlayer: a51c6ffebaf06b91d373091bb4a62ee188cfc7de
+
+PODFILE CHECKSUM: 32b9e639b39288905fc0525404052e5cdd2ebd45
+
+COCOAPODS: 1.5.3
